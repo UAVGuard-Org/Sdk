@@ -1,9 +1,9 @@
 package com.uavguard.sdk;
 
-public class Action {
+public abstract class Action {
 
-    private String name;
-    private byte[] packet;
+    protected String name;
+    protected byte[] packet;
 
     public Action(String name, byte[] packet) {
         this.name = name;
